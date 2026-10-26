@@ -1,0 +1,194 @@
+{
+  "meta": {
+    "title": "Mishkatul Islam — Laravel Backend Developer",
+    "description": "Mishkatul Islam is a PHP / Laravel backend developer in Dhaka with 2+ years building SaaS, fintech and ecommerce platforms, REST APIs and payment gateway integrations. 50+ apps deployed."
+  },
+  "profile": {
+    "name": "Mishkatul Islam",
+    "initials": "MI",
+    "role": "Backend Developer — PHP / Laravel",
+    "photo": "assets/img/mishkat.jpg",
+    "cv": "assets/Mishkatul_Islam_Resume.pdf",
+    "email": "mishkatislam007@gmail.com",
+    "phone": "+880 1821-587206",
+    "whatsapp": "8801821587206",
+    "location": "Dhaka, Bangladesh (GMT+6)",
+    "linkedin": "https://www.linkedin.com/in/mishkatul-islam-b528b3216/",
+    "github": "https://github.com/mishkat01",
+    "available": true,
+    "availableText": "Available for freelance & remote work"
+  },
+  "hero": {
+    "headline": "I build secure Laravel backends that your business can",
+    "highlight": "rely on.",
+    "intro": "Hi, I'm Mishkatul Islam, a PHP / Laravel backend developer with 2+ years shipping SaaS, fintech and ecommerce platforms: payment gateways, multi-role dashboards and REST APIs for web and mobile apps.",
+    "metaLine": "SSLCommerz · Stripe · PayPal"
+  },
+  "stats": [
+    { "value": "2", "suffix": "+", "label": "years building production apps" },
+    { "value": "50", "suffix": "+", "label": "apps deployed on Linux, VPS & cPanel" },
+    { "value": "4", "suffix": "", "label": "core systems with payment gateways" },
+    { "value": "50", "suffix": "%", "label": "fewer recurring bug reports (40% → 20%)" }
+  ],
+  "services": {
+    "title": "What I can build for you",
+    "subtitle": "From a brand-new Laravel app to fixing a bug on your live site — here is how I can help your business.",
+    "items": [
+      { "icon": "layout", "title": "Laravel web apps & SaaS", "text": "Booking systems, ecommerce stores and SaaS platforms with separate dashboards for Admin, Vendor and Manager." },
+      { "icon": "braces", "title": "REST APIs for web & mobile", "text": "Clean, documented APIs that your website and mobile app can use — tested in Postman and ready for your frontend team." },
+      { "icon": "card", "title": "Payment gateway integration", "text": "Secure checkout with SSLCommerz, Stripe, PayPal and cash on delivery — even several gateways in one app." },
+      { "icon": "lock", "title": "Login, OTP & user roles", "text": "Mobile OTP login, multi-role authentication and permissions, so every user sees only what they should." },
+      { "icon": "server", "title": "Deployment & server setup", "text": "I put your app live on a Linux VPS, cPanel, aaPanel or Hestia — with clear, repeatable rollout steps." },
+      { "icon": "wrench", "title": "Bug fixing & speed-ups", "text": "Fast fixes for live production issues, plus MySQL schema and query tuning when your app gets slow." }
+    ]
+  },
+  "work": {
+    "title": "Real products, live in the market",
+    "subtitle": "I built and maintained the backend for these four products at AppDevs. All of them are live on CodeCanyon (Envato Market) — open any one and see it yourself.",
+    "items": [
+      {
+        "title": "adMart",
+        "subtitle": "Online grocery shopping, eCommerce & pharmacy solution",
+        "category": "eCommerce",
+        "badge": "Live on CodeCanyon",
+        "description": "A complete grocery and pharmacy store with live order tracking and a dedicated Driver Panel for end-to-end delivery.",
+        "features": ["Live order tracking", "Mobile OTP login", "Multi-gateway payments", "Delivery-zone management"],
+        "tags": ["PHP", "Laravel", "MySQL", "jQuery", "REST API"],
+        "link": "https://codecanyon.net/item/admart-online-grocery-shopping-ecommerce-pharmacy-solutions/59832532",
+        "linkLabel": "View live product",
+        "image": "",
+        "icon": "cart",
+        "mock": "products",
+        "color1": "#22c55e",
+        "color2": "#0f766e"
+      },
+      {
+        "title": "SalonHub",
+        "subtitle": "Spa & salon booking management — full solution",
+        "category": "Booking SaaS",
+        "badge": "Live on CodeCanyon",
+        "description": "Covers the full booking lifecycle, with separate dashboards for Admin, Vendor and Manager.",
+        "features": ["Multi-role dashboards", "Full booking lifecycle", "Staff scheduling", "Online payments + COD"],
+        "tags": ["PHP", "Laravel", "MySQL", "jQuery", "REST API"],
+        "link": "https://codecanyon.net/item/salonhub-spa-salon-booking-management-full-solution/57287811",
+        "linkLabel": "View live product",
+        "image": "",
+        "icon": "scissors",
+        "mock": "calendar",
+        "color1": "#ec4899",
+        "color2": "#7e22ce"
+      },
+      {
+        "title": "DoctorHub",
+        "subtitle": "Hospital, doctor & patient booking — full solution",
+        "category": "Healthcare",
+        "badge": "Live on CodeCanyon",
+        "description": "Role-based panels for hospitals and vendors, with patient appointments and home-healthcare booking.",
+        "features": ["Hospital & vendor panels", "Appointment scheduling", "Health-package management", "Home-healthcare booking"],
+        "tags": ["PHP", "Laravel", "MySQL", "jQuery", "REST API"],
+        "link": "https://codecanyon.net/item/doctorhub-hospital-doctor-patient-booking-full-solution/58090017",
+        "linkLabel": "View live product",
+        "image": "",
+        "icon": "pulse",
+        "mock": "list",
+        "color1": "#0ea5e9",
+        "color2": "#1e40af"
+      },
+      {
+        "title": "XTream",
+        "subtitle": "Live sports & entertainment streaming SaaS",
+        "category": "Streaming SaaS",
+        "badge": "Live on CodeCanyon",
+        "description": "Live and highlight streaming with subscriptions, built for international audiences.",
+        "features": ["Live & highlight streaming", "Subscription management", "Content discovery", "Multi-language support"],
+        "tags": ["PHP", "Laravel", "MySQL", "jQuery", "REST API"],
+        "link": "https://codecanyon.net/item/xtream-live-sports-entertainment-streaming-saas-solution/55424785",
+        "linkLabel": "View live product",
+        "image": "",
+        "icon": "play",
+        "mock": "player",
+        "color1": "#f97316",
+        "color2": "#be123c"
+      }
+    ]
+  },
+  "experience": {
+    "title": "Where I've worked",
+    "items": [
+      {
+        "date": "Jul 2024 – Mar 2026 · Mirpur, Dhaka",
+        "role": "Jr. Software Engineer (Backend)",
+        "company": "AppDevs — FinTech software company",
+        "bullets": [
+          "Built and maintained **4 core backend systems** with multiple payment-gateway integrations and multi-role access for Admin, Vendor and Manager dashboards.",
+          "Deployed and maintained **50+ projects** on Linux, VPS, cPanel, aaPanel and Hestia, standardizing rollout steps to reduce deployment issues.",
+          "Debugged production incidents in real time, cutting recurring bug reports **from 40% to 20%**.",
+          "Designed and documented REST APIs used by web and mobile clients."
+        ]
+      },
+      {
+        "date": "Feb 2024 – Jun 2024 · Dhaka",
+        "role": "Jr. Laravel Developer",
+        "company": "2aIT Limited",
+        "bullets": [
+          "Developed features across Laravel applications for real estate, hotel management, ERP and accounting.",
+          "Contributed to government projects, working with senior developers to meet delivery timelines."
+        ]
+      }
+    ]
+  },
+  "education": {
+    "title": "Training & degree",
+    "footnote": "References available on request.",
+    "items": [
+      { "icon": "code", "title": "Web Application & Development", "org": "IsDB-BISEW · Round 54", "note": "PHP, JavaScript, Laravel, AngularJS, WordPress, ReactJS, CodeIgniter, Vue.js" },
+      { "icon": "cap", "title": "BSc in Statistics", "org": "Dhaka College · 2015 – 2021", "note": "" }
+    ]
+  },
+  "skills": {
+    "title": "Tools I use every day",
+    "subtitle": "A focused backend stack, used on real products — not just tutorials.",
+    "extraNote": "Dashed = working exposure",
+    "groups": [
+      { "name": "Languages", "items": ["PHP", "JavaScript (ES6)", "SQL"], "extra": [] },
+      { "name": "Frameworks", "items": ["Laravel", "jQuery"], "extra": ["Vue.js", "React", "CodeIgniter"] },
+      { "name": "Database", "items": ["MySQL", "Schema design", "Query optimization"], "extra": [] },
+      { "name": "APIs & payments", "items": ["REST API design", "Postman", "SSLCommerz", "Stripe", "PayPal"], "extra": [] },
+      { "name": "DevOps & deployment", "items": ["Linux", "VPS", "cPanel", "aaPanel", "Hestia", "Git / GitHub"], "extra": [] },
+      { "name": "Practices", "items": ["Live production debugging", "Multi-role auth", "OTP / auth systems"], "extra": [] }
+    ],
+    "terminalTitle": "deploy.log — production",
+    "terminal": [
+      "$ git pull origin main",
+      "$ composer install --no-dev --optimize-autoloader",
+      "$ php artisan migrate --force",
+      "✓ Migrations ran successfully",
+      "$ php artisan optimize && php artisan queue:restart",
+      "✓ Payments ready: SSLCommerz · Stripe · PayPal",
+      "✓ Health check passed",
+      "→ Your app is live."
+    ]
+  },
+  "process": {
+    "title": "A simple, clear process",
+    "subtitle": "You always know what is happening with your project, and what comes next.",
+    "items": [
+      { "icon": "chat", "title": "Discuss", "text": "You share your idea or problem. I ask questions until the goal is clear." },
+      { "icon": "clipboard", "title": "Plan", "text": "You get a clear scope, timeline and price before any work starts." },
+      { "icon": "code", "title": "Build", "text": "I build in small steps and share progress often, so there are no surprises." },
+      { "icon": "rocket", "title": "Launch & support", "text": "I deploy to your server, check that everything works, and help after launch." }
+    ]
+  },
+  "contact": {
+    "title": "Have a project in mind? Let's talk.",
+    "text": "Tell me what you need — a new Laravel app, an API, a payment integration or a fix for a live bug. I'll reply with clear next steps.",
+    "options": [
+      "New Laravel web app / SaaS",
+      "REST API for web or mobile",
+      "Payment gateway integration",
+      "Deployment / server setup",
+      "Bug fix or support for a live app",
+      "Something else"
+    ]
+  }
+}

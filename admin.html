@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Portfolio Admin</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/admin.css">
+  <script>
+    (function () {
+      var root = document.documentElement;
+      root.classList.add('js');
+      try {
+        var saved = localStorage.getItem('theme');
+        if (saved === 'light' || saved === 'dark') root.dataset.theme = saved;
+      } catch (e) {}
+    })();
+  </script>
+</head>
+<body class="admin">
+
+  <!-- Login / connect -->
+  <section class="login" data-view="login">
+    <form class="login-card" data-login-form>
+      <div class="login-brand">
+        <span class="brand-mark" aria-hidden="true">MI</span>
+        <div>
+          <h1>Portfolio Admin</h1>
+          <p>Connect to your GitHub repo to edit and save your site.</p>
+        </div>
+      </div>
+
+      <div class="form-row">
+        <div class="field"><label for="c-owner">GitHub username</label><input id="c-owner" name="owner" required placeholder="mishkat01"></div>
+        <div class="field"><label for="c-repo">Repository</label><input id="c-repo" name="repo" required placeholder="mishkat01.github.io"></div>
+      </div>
+      <div class="form-row">
+        <div class="field"><label for="c-branch">Branch</label><input id="c-branch" name="branch" required placeholder="main"></div>
+        <div class="field"><label for="c-folder">Folder in repo <span class="opt">(empty = root)</span></label><input id="c-folder" name="folder" placeholder=""></div>
+      </div>
+      <div class="field">
+        <label for="c-token">GitHub token</label>
+        <input id="c-token" name="token" type="password" required autocomplete="off" placeholder="github_pat_…">
+        <p class="hint">Create a <a href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noopener">fine-grained token</a>: pick only this repo, and set <b>Contents → Read and write</b>.</p>
+      </div>
+      <label class="check"><input type="checkbox" name="remember" checked> Remember on this device</label>
+
+      <p class="login-error" data-login-error hidden></p>
+
+      <button class="btn btn-primary btn-block" type="submit">Connect &amp; load</button>
+      <button class="btn btn-outline btn-block" type="button" data-offline>Work offline (download JSON when done)</button>
+    </form>
+  </section>
+
+  <!-- Editor -->
+  <div class="editor" data-view="editor" hidden>
+    <header class="admin-top">
+      <div class="admin-top-left">
+        <span class="brand-mark" aria-hidden="true">MI</span>
+        <div>
+          <strong>Portfolio Admin</strong>
+          <span class="conn" data-conn></span>
+        </div>
+      </div>
+      <div class="admin-top-right">
+        <span class="dirty" data-dirty hidden>Unsaved changes</span>
+        <button class="btn btn-ghost btn-sm" type="button" data-preview><svg class="icon"><use href="#i-eye"/></svg><span class="hide-sm">Preview</span></button>
+        <button class="btn btn-outline btn-sm" type="button" data-download><svg class="icon"><use href="#i-download"/></svg><span class="hide-sm">JSON</span></button>
+        <button class="btn btn-primary btn-sm" type="button" data-save><svg class="icon"><use href="#i-save"/></svg>Save</button>
+        <button class="icon-btn" type="button" data-logout aria-label="Disconnect"><svg class="icon"><use href="#i-logout"/></svg></button>
+      </div>
+    </header>
+
+    <div class="admin-layout">
+      <nav class="admin-tabs" data-tabs aria-label="Sections"></nav>
+      <main class="admin-main" data-panel></main>
+    </div>
+  </div>
+
+  <div class="toast" role="status" aria-live="polite" data-toast></div>
+
+  <script src="assets/js/icons.js"></script>
+  <script src="assets/js/admin.js"></script>
+</body>
+</html>

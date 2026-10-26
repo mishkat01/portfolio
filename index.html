@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mishkatul Islam — Laravel Backend Developer</title>
+  <meta name="description" content="Mishkatul Islam is a PHP / Laravel backend developer in Dhaka with 2+ years building SaaS, fintech and ecommerce platforms, REST APIs and payment gateway integrations. 50+ apps deployed.">
+  <meta name="author" content="Mishkatul Islam">
+  <meta name="theme-color" content="#0a0e15" media="(prefers-color-scheme: dark)">
+  <meta name="theme-color" content="#f6f7f9" media="(prefers-color-scheme: light)">
+
+  <!-- Link preview for WhatsApp, LinkedIn, Facebook. Change the URL if your site address is different. -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Mishkatul Islam — Laravel Backend Developer">
+  <meta property="og:description" content="Secure Laravel apps, REST APIs and payment gateway integrations. 2+ years in production, 50+ apps deployed.">
+  <meta property="og:image" content="https://mishkat01.github.io/assets/img/mishkat.jpg">
+  <meta name="twitter:card" content="summary">
+
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+
+  <script>
+    (function () {
+      var root = document.documentElement;
+      root.classList.add('js');
+      try {
+        var saved = localStorage.getItem('theme');
+        if (saved === 'light' || saved === 'dark') root.dataset.theme = saved;
+      } catch (e) {}
+    })();
+  </script>
+
+</head>
+<body>
+
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header" data-header>
+    <nav class="container nav" aria-label="Main">
+      <a class="brand" href="#top">
+        <span class="brand-mark" aria-hidden="true" data-bind="initials"></span>
+        <span class="brand-name" data-bind="name"></span>
+      </a>
+
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#services">Services</a></li>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#process">Process</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li class="mobile-cta"><a class="btn btn-primary" href="#contact">Hire me</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <button class="icon-btn theme-toggle" type="button" data-theme-toggle aria-label="Switch theme">
+          <svg class="icon i-moon"><use href="#i-moon"/></svg>
+          <svg class="icon i-sun"><use href="#i-sun"/></svg>
+        </button>
+        <a class="btn btn-primary btn-sm header-cta" href="#contact">Hire me</a>
+        <button class="icon-btn menu-btn" type="button" data-menu-toggle aria-controls="nav-links" aria-expanded="false" aria-label="Open menu">
+          <svg class="icon i-menu"><use href="#i-menu"/></svg>
+          <svg class="icon i-close"><use href="#i-x"/></svg>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Every section below is filled from data.json by assets/js/main.js -->
+  <main id="main">
+    <section class="hero" id="top"><div class="container hero-inner" data-section="hero"></div></section>
+    <section class="stats" aria-label="Key numbers"><div class="container" data-section="stats"></div></section>
+    <section class="section section-alt" id="services"><div class="container" data-section="services"></div></section>
+    <section class="section" id="work"><div class="container" data-section="work"></div></section>
+    <section class="section section-alt" id="experience"><div class="container exp-grid" data-section="experience"></div></section>
+    <section class="section" id="skills"><div class="container" data-section="skills"></div></section>
+    <section class="section section-alt" id="process"><div class="container" data-section="process"></div></section>
+    <section class="section" id="contact"><div class="container" data-section="contact"></div></section>
+  </main>
+
+  <footer class="site-footer"><div class="container footer-inner" data-section="footer"></div></footer>
+
+  <noscript><p class="container">Please turn on JavaScript to see this portfolio.</p></noscript>
+
+  <div class="toast" role="status" aria-live="polite" data-toast></div>
+
+  <script src="assets/js/icons.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
